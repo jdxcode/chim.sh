@@ -1,0 +1,77 @@
+# Security
+
+Fetching binaries off the internet and running them can be an attack vector.
+
+## Paranoid
+
+Enable paranoid mode with `$CHIM_PARANOID=1`. This makes chim behave in a way that maximizes 
+security though also a little less friendly to use.
+
+### Checksum Verification
+
+Checksum verification is required when using paranoid. By default, checksums are an optional 
+parameter.
+
+(Right now this is the only setting that paranoid sets but more may be added in the future)
+
+## Security Contact
+
+If you see a security issue, please contact security@\[take a wild guess\].sh
+
+## GPG Signing
+
+Releases are signed with GPG. The signature is below:
+
+```gpg
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+=HGxX
+-----END PGP PUBLIC KEY BLOCK-----
+```
