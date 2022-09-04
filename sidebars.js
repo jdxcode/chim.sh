@@ -24,7 +24,7 @@ const sidebars = {
     'windows',
     'faq',
     'terminology',
-    'changelog',
+    'external_links',
     {
       type: 'category',
       label: 'Fetchers',
