@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Chim Repository
+Label: Chim
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64 arm64
+Components: main
+Description: https://chim.sh
+Date: Sun, 04 Sep 2022 21:02:24 +0000
+MD5Sum:
+ 3e70fb94f89363d53f491ffa26d8196e 369 main/binary-amd64/Packages.gz
+ b4421f9d2b321e12b8f3c0f0789c7dd4 476 main/binary-amd64/Packages
+ a5c76b011e7e09f7505c89d7e1e9b368 367 main/binary-arm64/Packages.gz
+ 0f407e261003008875c3562e65e8c6ce 476 main/binary-arm64/Packages
+SHA1:
+ 8160dd85a05230e0aca9ce03404cfaedf6bdbe75 369 main/binary-amd64/Packages.gz
+ b8531c498cec4f5eb95cf7fdd5c40038e9093dc8 476 main/binary-amd64/Packages
+ 340242d38d69bc48036ee801c13ae418ba9d8164 367 main/binary-arm64/Packages.gz
+ 8cde3a3dd81f299efd856a1759dcf49ee1cb579e 476 main/binary-arm64/Packages
+SHA256:
+ 0237d74d5ec11175849a086361bca8df0c82aaa9236a3aae0396a4e1b57c4048 369 main/binary-amd64/Packages.gz
+ 379d117ab8e3001629a4e3ce2c519c2e182bfb1aa5c905e4a25880f420b60d81 476 main/binary-amd64/Packages
+ f3027b1545aed6d284d260bb276e934bb77f07afb7f064e9fd3bb7fbf7a94406 367 main/binary-arm64/Packages.gz
+ fea080b5d6bfd4e7aa85ddc9211945f2ddacd31ffa82cb1f74dd101d726d9070 476 main/binary-arm64/Packages
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEYEUT6h7i+hZeuu4wfgeo0Ut6VZUFAmMVEmAACgkQfgeo0Ut6
+VZX+eA//fm9NrveudIv1rCtQAHkBqUby1N2CaOcm6OYdtq+Agobm9NJrytBEA4n3
+zZPsqPGCvc04CUukqeT+dwW6H9Vcj6nLZFUgVoCPtTTVEg7Ft8ldX5gwV7BL82qq
+kpr6jO00anRjAuXM8Eyt3O3jqxbY1lXH4VIvR1iKGj+8rKJan8w7zpdk1juyWtcS
+Pso32+D6/StMh5HuResUwisUn2BTOGqC0fzsR4vz1YT9yvXySVYWqHrAVgX7zmry
+98vYQ+AKctL0sZWy81HQUPw2Rwv3f/NRwU7tcPnwO56PWaZxCJ8d+XrbZbORkADR
+2WQeEIgfV1nl8NmrJc6JEys9IMZFWk9iKRcNxlx8vmjqw1R9v02OaNDiFrQoh7Ob
+W/5nqF62A04ASnDU6d8gEuwz3FkO1IpD55YB418IP77gCicQfOQDqkBzbJADG7dk
+eI+FyvLTGiPglcfDT3u2YOu8UcGiPmC25WJsqAm58s31zgDidVLkEO4zN/w/I2FG
+6/H66w4Hx9CpNOxKwpwgx82tImRU8VFXnnxYMQ1DLXoATeYO1PbFFdIyNGYBAo7m
+inhAJTVqH5ggrx1fkcNtxP6jaVYysXg83ZJRb5Q+j1CaXimrV7Qw/KqRz2DmRJra
+MfAepXWJSMqTZOvm9yJgYqtYWOGRjtIS1iBDAW1LJVqnsPrISiI=
+=0IsI
+-----END PGP SIGNATURE-----

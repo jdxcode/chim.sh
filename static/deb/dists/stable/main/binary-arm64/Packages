@@ -1,0 +1,17 @@
+Package: chim
+Version: 1.0.2
+Architecture: arm64
+Maintainer: Jeff Dickey @jdxcode
+Installed-Size: 3469
+Filename: pool/main/chim_1.0.2_arm64.deb
+Size: 1824782
+MD5sum: 66ff12962e390df819264fe8269a998d
+SHA1: 510b7b3c32bd988905316c9779d2ec79fcf97515
+SHA256: 7b74adeb91e41a50f843f50af2124d3fd8778de89c390ff332f6fb89b2b425d8
+Section: default
+Priority: extra
+Homepage: https://chim.sh
+Description: Cross-platform binary shims with optional remote fetching
+License: MIT
+Vendor: none
+
