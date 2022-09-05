@@ -9,35 +9,35 @@ Version: 1.0
 Architectures: amd64 arm64
 Components: main
 Description: https://chim.sh
-Date: Mon, 05 Sep 2022 08:48:11 +0000
+Date: Mon, 05 Sep 2022 18:54:45 +0000
 MD5Sum:
- 580a72724d0480c45af85118ee0d2552 366 main/binary-amd64/Packages.gz
- 7b0fdac1dd82ab15538d176378dfeb9c 476 main/binary-amd64/Packages
- 7ccd9049e38361f20826a4f05d3b8baa 366 main/binary-arm64/Packages.gz
- 59e5cfe9ccc4606d9565293d93e8cd20 476 main/binary-arm64/Packages
+ cb232482bc86649a3b110daaed1fa28a 367 main/binary-amd64/Packages.gz
+ 5ec2324a6ce1df17238901cf28fba8a4 476 main/binary-amd64/Packages
+ d66d17350d27fff0b72cdf55b56f5df9 367 main/binary-arm64/Packages.gz
+ fad9b22cd07c1455086dc5fc8c23a950 476 main/binary-arm64/Packages
 SHA1:
- c357aeed7be4fc76174b0620acf1bd0d554c2e84 366 main/binary-amd64/Packages.gz
- 1fec28940f6b6c6f604b312c90874abfaa01e5c4 476 main/binary-amd64/Packages
- a48bcfbf22d972170f3c16ee383fad797c170567 366 main/binary-arm64/Packages.gz
- 5fc9d26d839ff05b19877df8310bc306b7b6be80 476 main/binary-arm64/Packages
+ 7d3d2d0ca57f22247a64ecf37978ca595eb41de7 367 main/binary-amd64/Packages.gz
+ 09747d19a86c819f5cc81b812078257af4db62f8 476 main/binary-amd64/Packages
+ 18637c1a426bde2f5ce99d9ae7d0dea6773e2f1d 367 main/binary-arm64/Packages.gz
+ a54067c7ab494d1ddbe0ac66caadc62d1d05abc4 476 main/binary-arm64/Packages
 SHA256:
- bf877fc4c31f68faff5aa29d791c32e1e665b808e97011d478d91c95230a302d 366 main/binary-amd64/Packages.gz
- 71eeacf02d139a1575949e7771c7a54f7711613ff76651d995390e4892d92791 476 main/binary-amd64/Packages
- 5631a4e952c975277bbcdef8b8a3b4bb587f240205aed49497c14a32a69f7179 366 main/binary-arm64/Packages.gz
- 0cda6066660b11c7f00101051dca2e00adb733ccbd32fc3d55c690367f2347b9 476 main/binary-arm64/Packages
+ 30b346cca26af6c93310f93a68432cc07594806de1ba2c6e663cef8ac1066e26 367 main/binary-amd64/Packages.gz
+ 807618ef6536e46b3d12380f79f8da8e7dd00ef9d797fe5ab3f2f307f638b776 476 main/binary-amd64/Packages
+ 00421b3d4c452290a26fd29033c20f519a2d860155fb2cbe7d2e6d31c167885f 367 main/binary-arm64/Packages.gz
+ af6288a5461063e3e725db3aec4f2df153d24ed03d529a27832f9b1fae6b93cb 476 main/binary-arm64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEYEUT6h7i+hZeuu4wfgeo0Ut6VZUFAmMVt8sACgkQfgeo0Ut6
-VZXcUw//eT7hrIny1nT51AZF82/xnBfKUVMVbQ9kzFL23JySAPONU2zWRMuzOgsV
-HZIn4KRPqPZpy3QDBRDNf7uXolZKG9l30blepJqHqhDNi7eilJHy3PiUk91Pycty
-qqi5ImHSnRpECLCNC3OcY4yX5Rs0yoPHU2IUgiD8lniUT3GTVdeiFjvxGVprIpTQ
-GkwhQnagPTah20xwQrU2u3fAkukNLDfhyBXQLyj0eopbVr1j+cIjU76HrVIBPeRV
-79PppFnUUp4dwMewTtOSISz8g1hUGvHCsVthtiNZigiHgD3wtWaoP5LAVjw9zzU9
-YywaDWBOEZA5uLcSCIE+mDdCNs8Hj1naS7rYgfo3snzbkTi8tfN1XLTanBnjzN0+
-zwIbAokiugUzvWho6SM32QeXbMW4YYTTDCS+bHO4TogkAbj9GLrAcu6vVYyNMkZ8
-w/sU3hcqgbczqzN4Oih3bwUwnQQ9ivv0bkdsFiQtE17uXA8ZvHmjNtdrc5L8Yu5l
-DIbUi7Fs3iZPfjeDLAoTM6Tqz4JK+MlW4EP4kwqoQnrCsAsfsfzEpVqCX72XT9vV
-A7qvTaF+WsaeBTn1TYLYnhZlLpNhfYG4ckIdODYaXo566oD6d917xfFIS7asKUa0
-mcKeh5yvCraxPCqhM9OtItbhS9r4MC9hdja+xPuWzblpNlWHpNc=
-=oJmf
+iQIzBAEBCgAdFiEEYEUT6h7i+hZeuu4wfgeo0Ut6VZUFAmMWRfYACgkQfgeo0Ut6
+VZVPOQ/+MRbD2h4v5TCnwq9ffOALEZ4GBfNdU7XC9ebw89r8y8ZItAGJYQd8L2Tx
+U47PAsNWJmivbHK7LJArQOFOaHzqPqhY/ss15EqW6sqDpYmHnsW7W3LJHAp226z9
+Lgnf7kc4yqW8NHNbgx7Q0hYDKLNeTCy4OC/tKA0WE+wceqtCrQW6EFaU3yHdsLzm
+844lErS7ZmfeHMI1DOAgo8UtwyJF7bwdwvbwcRbg9M2krLVmw5FWy68D+nz2ON/I
+rY2iVFXiDQ6RSJgIjB4fXmk0LRAmPBSyXGlnsiEDcq8F4jc9lHZPUiiVpbO8QPD5
+gZIO0keu7GjESshBvwg6ypYIE3Zg6CXRfqcbTvTtnEt9M0owHkbStAd7xY+6ccb3
+d5Z0uihCKyEOPCcyFlINfClIWHgR3QuG5whjSM45QoA5FII/hHBA7MDRYjqQe1mh
+ywbH0qIZAnHd7iJEvrRTIRtvggso/EfdQQGHFG43ZCbO+04QN/VOg8xS8pznqyy5
+eKGiSARD2SCodAbaCh1fDpWcpc5X7XI9xvfGz0k77eoUS1nldS79KQrk1dkNItLQ
+p80j01U+n6hs+oEmDu4gQ18jP6GKIvQXtVKJN8a9yRfb28Eo5CHAHBf0PzF3r7fv
+frQj8XKsJndqxukFbbYIpZeeHYjdGH7vL/v/f3F8Lv7c2lAwRpc=
+=nRcA
 -----END PGP SIGNATURE-----

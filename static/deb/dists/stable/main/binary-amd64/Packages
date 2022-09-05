@@ -1,13 +1,13 @@
 Package: chim
-Version: 1.1.0
+Version: 1.1.1
 Architecture: amd64
 Maintainer: Jeff Dickey @jdxcode
 Installed-Size: 4105
-Filename: pool/main/chim_1.1.0_amd64.deb
-Size: 1958504
-MD5sum: 86de8449aa671c35a82e56aa027fcd1f
-SHA1: 40503fd9aa0ba31e4973f9ededd850a30efca9f3
-SHA256: adf01e72d5c58259adad37af79bbb8c5cfe2acb4b395181a88845d0055f78844
+Filename: pool/main/chim_1.1.1_amd64.deb
+Size: 1958632
+MD5sum: 2930cd95a00dd93d66cbacba9138fb0e
+SHA1: 788566dcb7867f019b3fe2bd35852abd462acfa5
+SHA256: d9c388a41ff957aab88c57f0f0887736e5da070f84bdfdc8a0c2377ff2f62740
 Section: default
 Priority: extra
 Homepage: https://chim.sh
