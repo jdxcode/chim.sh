@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Out of the box with support for many methods of remote fetching binaries, e.g.: HTTPS, Git, S3, ssh, and even Docker.
+        Out of the box with support for different methods of remote fetching binaries, e.g.: HTTPS, S3, GCP, Azure Blob Storage, ssh.
       </>
     ),
   },
