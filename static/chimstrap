@@ -68,10 +68,10 @@ get_checksum() {
 	os="$(get_os)"
 	arch="$(get_arch)"
 
-	checksum_linux_x86_64="bc26860622efa881b9c6a65e804fad3977b9558e2e51c5c910abfd3577c299fd  ./chim-v1.0.2-linux-x64.tar.xz"
-	checksum_linux_arm64="c139695defca328f0913d800b12eedae21a8747c1c30fc96b9c15eb7e21ff026  ./chim-v1.0.2-linux-arm64.tar.xz"
-	checksum_macos_x86_64="65d7dd811ce16e2046b4411762dbf32bfa9029857b9e07faad5d719211ae2b40  ./chim-v1.0.2-macos-x64.tar.xz"
-	checksum_macos_arm64="1cf289bb0913082dbc336ec924c4b76bc19d155934092d2e6052d8975fc1cbbe  ./chim-v1.0.2-macos-arm64.tar.xz"
+	checksum_linux_x86_64="436ee0d0eea6bd522ae150dd0cc3a45cb95750a76be401ebf6ac1bb36bbdb4c3  ./chim-v1.1.0-linux-x64.tar.gz"
+	checksum_linux_arm64="37408e8f18d3da49f11ea67319d3235325a90569ff732b10b1cc3bfb8e913758  ./chim-v1.1.0-linux-arm64.tar.gz"
+	checksum_macos_x86_64="65fd2286b750a900109ff2c38044f0a41775e22cfaa38dff946c94e75b45786b  ./chim-v1.1.0-macos-x64.tar.gz"
+	checksum_macos_arm64="c6325278cd89467ed399e79325bcd58062d37b7222243269e312b9e365f64774  ./chim-v1.1.0-macos-arm64.tar.gz"
 
 	if [ "$os" = "linux" ] && [ "$arch" = "x64" ]; then
 		echo "$checksum_linux_x86_64"
@@ -114,11 +114,11 @@ download_file() {
 
 install_chim() {
 	# download the tarball
-	version="v1.0.2"
+	version="v1.1.0"
 	os="$(get_os)"
 	arch="$(get_arch)"
 	cache_dir="$(get_cache_dir)"
-	tarball_url="https://chim.sh/releases/${version}/chim-${version}-${os}-${arch}.tar.xz"
+	tarball_url="https://chim.sh/releases/${version}/chim-${version}-${os}-${arch}.tar.gz"
 
 	cache_file=$(download_file "${CHIMSTRAP_URL:-$tarball_url}")
 	debug "chimstrap: cache_file is $cache_file"
@@ -132,7 +132,7 @@ install_chim() {
 
 	# extract tarball
 	mkdir -p "$cache_dir"
-	tar -xJf "$cache_file" -C "$cache_dir/.."
+	tar -xzf "$cache_file" -C "$cache_dir/.."
 	rm -f "$cache_file"
 }
 
