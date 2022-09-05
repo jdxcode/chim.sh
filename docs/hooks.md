@@ -1,15 +1,15 @@
 # Hooks
 
-Hooks are a way to run custom logic at various points in the lifecycle of a chim. They can 
+Hooks are a way to run custom logic at various points in the lifecycle of a chim. They can
 change the behavior of the chim in various ways.
 
 They should use stderr for user-facing output—stdout is reserved for various reasons in each hook.
 
-If any chim exits with non-zero code, the execution is stopped and that exit code is returned. 
-Like the [file fetcher](/docs/fetchers/file), the paths are relative to the directory of the 
+If any chim exits with non-zero code, the execution is stopped and that exit code is returned.
+Like the [file fetcher](/docs/fetchers/file), the paths are relative to the directory of the
 chim—not `$PWD`.
 
-All shims are called with `$CHIM_ARGS` containing the arguments that will be passed to the 
+All shims are called with `$CHIM_ARGS` containing the arguments that will be passed to the
 platform binary.
 
 For this article, assume a chim like the following:
@@ -34,7 +34,7 @@ path = 'bin/mytool'
 
 Runs before the archive is fetched. Called with `$CHIM_URL` which is the URL to download from.
 
-If the hook prints output to stdout, it's assumed to be a new, different URL that will be used 
+If the hook prints output to stdout, it's assumed to be a new, different URL that will be used
 instead.
 
 ### `pre_extract: string`

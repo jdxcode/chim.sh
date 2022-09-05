@@ -34,7 +34,7 @@ path = 'node-v18.7.0-darwin-arm64/bin/node'
 [linux-x64]
 url = 'https://nodejs.org/dist/v18.7.0/node-v18.7.0-linux-x64.tar.xz'
 path = 'node-v18.7.0-linux-x64/bin/node'
-  
+
 [windows-x64]
 url = 'https://nodejs.org/dist/v18.7.0/node-v18.7.0-win-x64.zip'
 path = 'node-v18.7.0-win-x64\node.exe'

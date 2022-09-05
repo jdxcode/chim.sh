@@ -42,6 +42,7 @@ If you're on arm64 you'll need to run the following:
 ```sh-session
 echo "deb [signed-by=/usr/share/keyrings/chim-archive-keyring.gpg arch=arm64] https://chim.sh/deb stable main" | sudo tee /etc/apt/sources.list.d/chim.list
 ```
+
 :::
 
 ### dnf

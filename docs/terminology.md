@@ -19,12 +19,11 @@ path = 'bin/node'
 
 A customizable backend for downloading binaries (e.g.: http, s3, file).
 
-
 ### Platform
 
 Generally refers to an os/arch pair. e.g.: macos-arm64, linux-x64, etc.
 
 ### Platform-binary
 
-An executable binary that only runs on a particular os/arch pair. (e.g.: bin/node-macos-arm64, 
+An executable binary that only runs on a particular os/arch pair. (e.g.: bin/node-macos-arm64,
 bin/node-linux-x64, etc.)

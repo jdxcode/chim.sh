@@ -27,18 +27,18 @@ If the cache does not exist, chim will download the tarball, verify the checksum
 
 These are configuration options available in a chim:
 
-* **url** – http/https URL to download the archive/file from.
-* **path** – the binary's path within the extracted archive.
-* **checksum** – an optional checksum to verify the tarball is complete and not tampered with.
-* **archive** – the archive type, autodetected from filename. Override options:
-  * **`"tar.gz"/"tgz"`**
-  * **`"tar.xz"/"txz"`**
-  * **`"tar.bz2"/"tbz2"`**
-  * **`"zip"`**
-  * **`"gz"`**
-  * **`"xz"`**
-  * **`"bz2"`**
-  * **`false`** – disables archive support and just downloads the binary directly.
+- **url** – http/https URL to download the archive/file from.
+- **path** – the binary's path within the extracted archive.
+- **checksum** – an optional checksum to verify the tarball is complete and not tampered with.
+- **archive** – the archive type, autodetected from filename. Override options:
+  - **`"tar.gz"/"tgz"`**
+  - **`"tar.xz"/"txz"`**
+  - **`"tar.bz2"/"tbz2"`**
+  - **`"zip"`**
+  - **`"gz"`**
+  - **`"xz"`**
+  - **`"bz2"`**
+  - **`false`** – disables archive support and just downloads the binary directly.
 
 ### netrc
 

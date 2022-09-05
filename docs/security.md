@@ -4,12 +4,12 @@ Fetching binaries off the internet and running them can be an attack vector.
 
 ## Paranoid
 
-Enable paranoid mode with `$CHIM_PARANOID=1`. This makes chim behave in a way that maximizes 
+Enable paranoid mode with `$CHIM_PARANOID=1`. This makes chim behave in a way that maximizes
 security though also a little less friendly to use.
 
 ### Checksum Verification
 
-Checksum verification is required when using paranoid. By default, checksums are an optional 
+Checksum verification is required when using paranoid. By default, checksums are an optional
 parameter.
 
 (Right now this is the only setting that paranoid sets but more may be added in the future)
