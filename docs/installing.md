@@ -7,14 +7,14 @@ In order to use chims, the system needs the `chim` binary to be installed. Use o
 The chimstrap is a bootstrapping shell script that will download chim if it does not already exist. It's like chim for chim itself.
 
 ```
-$ curl -o ./chim https://chim.sh/chimstrap
-$ chmod +x ./chim
-$ ./chim --version
+$ curl -o ./bin/chim https://chim.sh/chimstrap
+$ chmod +x ./bin/chim
+$ ./bin/chim --version
 chim 1.0.0
 ```
 
 :::tip
-The chimstrap is great for including in a project so nobody has to install chim manually. It's the recommended installation method.
+The chimstrap is great for including in a project alongside the other binaries so nobody has to install chim manually. It's the recommended installation method.
 :::
 
 ### Homebrew
