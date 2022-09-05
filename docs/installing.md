@@ -2,6 +2,21 @@
 
 In order to use chims, the system needs the `chim` binary to be installed. Use one of these methods to install it.
 
+### chimstrap
+
+The chimstrap is a bootstrapping shell script that will download chim if it does not already exist. It's like chim for chim itself.
+
+```
+$ curl -o ./chim https://chim.sh/chimstrap
+$ chmod +x ./chim
+$ ./chim --version
+chim 1.0.0
+```
+
+:::tip
+The chimstrap is great for including in a project so nobody has to install chim manually. It's the recommended installation method.
+:::
+
 ### Homebrew
 
 For macOS and Linux:
@@ -71,21 +86,6 @@ Compile chim from source with the Rust toolchain:
 ```sh-session
 cargo install chim
 ```
-
-### chimstrap
-
-The chimstrap is a bootstrapping shell script that will download chim if it does not already exist. It's like chim for chim itself.
-
-```
-$ curl -o ./chim https://chim.sh/chimstrap
-$ chmod +x ./chim
-$ ./chim --version
-chim 1.0.0
-```
-
-:::tip
-The chimstrap is great for including in a project so nobody has to install chim manually.
-:::
 
 ## Verifying Installation
 
