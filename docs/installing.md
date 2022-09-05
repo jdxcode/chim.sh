@@ -47,6 +47,14 @@ yum config-manager --add-repo https://chim.sh/rpm/chim.repo
 yum install -y chim
 ```
 
+### Alpine AUR
+
+```sh-session
+git clone https://aur.archlinux.org/chim.git
+cd chim
+makepkg -si
+```
+
 ### Tarball
 
 Manually extract a tarball. See tarballs on the [releases page](https://github.com/jdxcode/chim/releases).
