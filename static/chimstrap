@@ -68,10 +68,10 @@ get_checksum() {
 	os="$(get_os)"
 	arch="$(get_arch)"
 
-	checksum_linux_x86_64="4739c11937d72ff6b576da6aa41b6170eabd43727e3adf6a0bbf50ec695d5530  ./chim-v1.1.1-linux-x64.tar.gz"
-	checksum_linux_arm64="50ef41554da9a9120ecc41a0f64cf5f6033a83248389925e9f5432b22aed8f18  ./chim-v1.1.1-linux-arm64.tar.gz"
-	checksum_macos_x86_64="8d49133d587a1461e445774cbc67c73dad4459ca9d66bfef937b8531a9322e66  ./chim-v1.1.1-macos-x64.tar.gz"
-	checksum_macos_arm64="5663be09143526a0fa96a79ddddcfab8d53129f79a3dc50e3bc1b814ccf62d9f  ./chim-v1.1.1-macos-arm64.tar.gz"
+	checksum_linux_x86_64="b6018f5fbe67fc92cba27a21da7ab9f915c0d8b8451e0f252f274de60a89e568  ./chim-v1.1.2-linux-x64.tar.gz"
+	checksum_linux_arm64="8e4b0a7561daf78c3d2e9da53efb033c97effb3a962f73dbdc0968ac0f6c95db  ./chim-v1.1.2-linux-arm64.tar.gz"
+	checksum_macos_x86_64="b1276788a7ea743779c37ebdfbd20714ebce4497c50aea8835a655653a667de7  ./chim-v1.1.2-macos-x64.tar.gz"
+	checksum_macos_arm64="acd60099d8793a5240dddf63d40191cbe488cbec4b447757c487c035a55ffef6  ./chim-v1.1.2-macos-arm64.tar.gz"
 
 	if [ "$os" = "linux" ] && [ "$arch" = "x64" ]; then
 		echo "$checksum_linux_x86_64"
@@ -114,7 +114,7 @@ download_file() {
 
 install_chim() {
 	# download the tarball
-	version="v1.1.1"
+	version="v1.1.2"
 	os="$(get_os)"
 	arch="$(get_arch)"
 	cache_dir="$(get_cache_dir)"

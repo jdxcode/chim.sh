@@ -1,0 +1,9 @@
+8e4b0a7561daf78c3d2e9da53efb033c97effb3a962f73dbdc0968ac0f6c95db  ./chim-v1.1.2-linux-arm64.tar.gz
+e0c83081407b8e659f8c9dee9a7d238025c84ca38601676b7360c106958862f8  ./chim-v1.1.2-linux-arm64.tar.xz
+b6018f5fbe67fc92cba27a21da7ab9f915c0d8b8451e0f252f274de60a89e568  ./chim-v1.1.2-linux-x64.tar.gz
+dde02ed932e36dfa874cbf6bb1029a72395881434fdffe251ade6562f178f3fa  ./chim-v1.1.2-linux-x64.tar.xz
+acd60099d8793a5240dddf63d40191cbe488cbec4b447757c487c035a55ffef6  ./chim-v1.1.2-macos-arm64.tar.gz
+02fe28118982a5af2414092fb9494d1f5bd3e22276c60917bb9efe6ed3b1edca  ./chim-v1.1.2-macos-arm64.tar.xz
+b1276788a7ea743779c37ebdfbd20714ebce4497c50aea8835a655653a667de7  ./chim-v1.1.2-macos-x64.tar.gz
+5af8e65494a2305448d11f7f6c4f5a230099b75ddd26bb1c1d178e0b353b3350  ./chim-v1.1.2-macos-x64.tar.xz
+135c08459eed85cc3ba85684ddad3a231da8412b58e91880c3fea07fecf7b90b  ./chim-v1.1.2-windows-x64.zip
