@@ -63,7 +63,17 @@ yum config-manager --add-repo https://chim.sh/rpm/chim.repo
 yum install -y chim
 ```
 
-### Alpine AUR
+### apk
+
+For alpine:
+
+```sh-session
+apk add chim --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing/
+```
+
+### aur
+
+For arch:
 
 ```sh-session
 git clone https://aur.archlinux.org/chim.git
