@@ -167,6 +167,11 @@ const config = {
         ]
       },
     }),
+  scripts: [
+    {
+        src: '/twitter.js',
+    }
+  ]
 };
 
 module.exports = config;
